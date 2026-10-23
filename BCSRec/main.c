@@ -3,7 +3,7 @@
 
 #include "functions.h"
 
-void main() 
+int main(void)
 {
 	int length = 1;
 	int width = 1;
@@ -21,6 +21,8 @@ void main()
 		{
 			case 1:
 			{
+				length = setLength(length);
+				width = setWidth(width);
 				printf("\nThe Rectangle has a length of %i and a width of %i\n\n", length, width);
 				break;
 			}
@@ -28,22 +30,26 @@ void main()
 			{
 				int input = getIntInput("Please enter the length of the rectangle:");
 				length=setLength(input);
+				printf("Rectangle length is now %i\n\n", length);
 				break;
 			}
 			case 3:
 			{
 				int input = getIntInput("Please enter the width of the rectangle:");
 				width=setWidth(input);
+				printf("Rectangle width is now %i\n\n", width);
 				break;
 			}
 			case 4:
 			{
 				printf("\nThe Rectangle has a perimeter of %i\n\n", getPerimeter(length, width));
+				printf("Rectangle perimeter is now %i\n\n", getPerimeter(length, width));
 				break;
 			}
 			case 5:
 			{
 				printf("\nThe Rectangle has an area of %i\n\n", getArea(length, width));
+				printf("Rectangle area is now %i\n\n", getArea(length, width));
 				break;
 			}
 			case 6:
@@ -53,10 +59,9 @@ void main()
 			}
 			default:
 			{
-				printf("\nInvalid value entered.\n\n");
+				printf("\nInvalid value entered7.\n\n");
 				break;
 			}
 		}
 	}
 }
-

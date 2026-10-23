@@ -6,8 +6,9 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/georgebadal/CSCN71020.W/CSCN71020_A2",
-      "program": "/Users/georgebadal/CSCN71020.W/CSCN71020_A2/build/Debug/outDebug"
+      "cwd": "${workspaceFolder}/BCSRec",
+      "program": "${workspaceFolder}/BCSRec/BCSRec",
+      "preLaunchTask": "Build BCSRec"
     }
   ]
 }
