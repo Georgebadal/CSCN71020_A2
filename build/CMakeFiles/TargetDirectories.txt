@@ -1,5 +1,0 @@
-/Users/georgebadal/CSCN71020.W/CSCN71020_A2/build/CMakeFiles/BCSRec.dir
-/Users/georgebadal/CSCN71020.W/CSCN71020_A2/build/CMakeFiles/unit_tests.dir
-/Users/georgebadal/CSCN71020.W/CSCN71020_A2/build/CMakeFiles/test.dir
-/Users/georgebadal/CSCN71020.W/CSCN71020_A2/build/CMakeFiles/edit_cache.dir
-/Users/georgebadal/CSCN71020.W/CSCN71020_A2/build/CMakeFiles/rebuild_cache.dir

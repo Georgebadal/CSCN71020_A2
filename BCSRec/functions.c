@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -17,7 +16,7 @@ int getIntInput(char message[]) {
 // read length if between 0 and 100 otherwise set it to -1
 int setLength(int input) {
 	int length = 1;
-	if (input >= 0 && input < 100)
+	if (input > 0 && input < 100)
 	{
 		length = input;
 		return length;
@@ -30,7 +29,7 @@ int setLength(int input) {
 // read width if between 0 and 100 otherwise set it to -1
 int setWidth(int input) {
 	int width = 1;
-	if (input > 0 && input <= 100)
+	if (input > 0 && input < 100)
 	{
 		 width = input;
 		return width;
